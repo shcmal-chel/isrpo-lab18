@@ -80,10 +80,28 @@ console.log("10" - 5);
 const numbersArray = [1, 2, 3];
 numbersArray[0] = 10;
 console.log(numbersArray);
-numbersArray = [5, 6, 7];
+//numbersArray = [5, 6, 7];
 
 const persons = {name: "Divan", age: 18};
 persons.age = 50;
 persons.city = "Volgograd";
 console.log(persons);
-person = {name: "Capusta"};
+//person = {name: "Capusta"};
+
+console.log(typeof "текст");
+console.log(typeof 42);
+console.log(typeof true);
+console.log(typeof undefined);
+console.log(typeof null);
+console.log(typeof {});
+console.log(typeof []);
+console.log(typeof function () {});
+
+let numberX = null;
+console.log(numberX === null);
+
+// Задание
+let newPrice = 12;
+console.log(newPrice, typeof newPrice);
+newPrice = "I am a Batman";
+console.log(newPrice, typeof newPrice);
