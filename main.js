@@ -155,3 +155,8 @@ let users = [
     {name: "Jane", age: 25},
 ];
 console.table(users);
+
+let a2 = 3;
+let b2 = 8;
+console.log(a2 + b2)
+console.log(a2 * b2)
