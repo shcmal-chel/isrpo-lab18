@@ -160,3 +160,54 @@ let a2 = 3;
 let b2 = 8;
 console.log(a2 + b2)
 console.log(a2 * b2)
+
+let yourAge = 18;
+if (yourAge >= 18){
+    console.log("Доступ разрешен");
+} else {
+    console.log("Доступ запрещен")
+}
+
+let temperature1 = 24;
+if (temperature1 <= 0){
+    console.log("Холодно")
+} else if (0 < temperature1 <= 20){
+    console.log("Прохладно")
+} else {
+    console.log("Тепло")
+}
+
+let isLoggedIn = true;
+let isAdmin = true;
+if (isLoggedIn && isAdmin === true){
+    console.log("Полный доступ")
+} else if (isLoggedIn &! isAdmin === true){
+    console.log("Ограниченный доступ")
+} else {
+    console.log("Доступ разрешен")
+}
+
+let a3 = 10;
+let b3 = "10";
+if (c = a3 == b3){
+    console.log(c)
+} else if (c1 = a3 === b3){
+    console.log(c1)
+}
+
+let monthNumber = 4;
+switch (monthNumber) {
+    case 1: console.log("Январь"); break
+    case 2: console.log("Февраль"); break
+    case 3: console.log("Март"); break
+    case 4: console.log("Апрель"); break
+    case 5: console.log("Май"); break
+    case 6: console.log("Июнь"); break
+    case 7: console.log("Июль"); break
+    case 8: console.log("Август"); break
+    case 9: console.log("Сентябрь"); break
+    case 10: console.log("Октябрь"); break
+    case 11: console.log("Ноябрь"); break
+    case 12: console.log("Декабрь");
+    default: console.log("Неизвестный месяц")
+}
