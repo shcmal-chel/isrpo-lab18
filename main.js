@@ -149,3 +149,9 @@ console.log(obj1 === obj3);
 let arr1 = [1,2,3];
 let arr2 = [1,2,3];
 console.log(arr1 === arr2);
+
+let users = [
+    {name: "John", age: 30},
+    {name: "Jane", age: 25},
+];
+console.table(users);
